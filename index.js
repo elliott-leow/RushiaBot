@@ -57,7 +57,7 @@ const osuApi = new osu.Api(osuAPI, {
 });
 
 var osuRecents;
-
+//this is a test.
 function check() {
     fs.readFile('osulink.txt', {encoding: 'utf-8'}, function(err, data) {
         if (err) throw error;
